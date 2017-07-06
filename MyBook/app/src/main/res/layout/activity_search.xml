@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book_background"
+    tools:context="com.example.android.mybook.SearchActivity">
+
+    <EditText
+        android:id="@+id/SearchText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        tools:text="Search"
+        android:textAlignment="center"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/SearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/SearchText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+</RelativeLayout>

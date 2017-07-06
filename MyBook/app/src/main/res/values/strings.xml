@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyBook</string>
+
+    <!--String for not type search key -->
+    <string name="No_Search_key">You havnot enterded any search key</string>
+
+    <!--String for No Data Found -->
+    <string name="No_Data_Found">Soory, No data fond</string>
+
+    <!--No internet connection-->
+    <string name="No_internet_connection">No internet connection</string>
+</resources>
